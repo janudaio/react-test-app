@@ -1,0 +1,54 @@
+.contacts {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Use relative line height */
+    list-style: none;
+    position: absolute;
+    left: 2%; /* Use percentages */
+    top: 2%; /* Use percentages */
+    font-size: 1rem; /* Use relative units */
+}
+
+.contacts ul {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    list-style: none;
+}
+
+.contacts ul .phone {
+    letter-spacing: 1.4px;
+}
+.contacts ul a {
+    text-decoration: none;
+}
+
+.icons {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 22px;
+    padding-right: 9px;
+
+    padding-top: 5px;
+    transition: 0.4s ease;
+}
+
+.icons ion-icon:hover {
+    color: #ff7200;
+}
+.icon {
+    display: flex;
+    color: #ff7200;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+    float: left;
+    margin: 0 auto;
+}
