@@ -133,6 +133,17 @@ body {
     line-height: 26px;
     list-style: none;
 }
+
+.contacts ul a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.contacts ul a:hover {
+    color: #ff7200;
+    transition: 0.3s ease;
+}
+
 .icons {
     text-decoration: none;
     color: #fff;
@@ -144,7 +155,7 @@ body {
     padding-right: 9px;
 
     padding-top: 5px;
-    transition: 0.4s ease;
+    transition: 0.4s ease-in;
 }
 
 .icons ion-icon:hover {

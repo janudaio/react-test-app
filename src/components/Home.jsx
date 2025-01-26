@@ -19,7 +19,11 @@ function Home() {
                 </div>
                 <div className="contacts">
                     <ul>
-                        <li>dev.januda@gmail.com</li>
+                        <li className="email">
+                            <a href="mailto:dev.j.a@gmail.com">
+                                dev.januda@gmail.com
+                            </a>
+                        </li>
                         <li>+94 75 71 98138</li>
                         <li>Kegalle, Sri Lanka</li>
                     </ul>
