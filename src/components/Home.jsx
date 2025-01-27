@@ -1,4 +1,5 @@
 import '../styles/home.css';
+// import Button from '../components/ButtonComponent';
 
 function Home() {
     return (
@@ -24,7 +25,7 @@ function Home() {
                                 dev.januda@gmail.com
                             </a>
                         </li>
-                        <li>+94 75 71 98138</li>
+                        <li className="phone">+94 75 71 98138</li>
                         <li>Kegalle, Sri Lanka</li>
                     </ul>
                     <div className="icons">
@@ -47,8 +48,14 @@ function Home() {
                             <ion-icon name="logo-instagram"></ion-icon>
                         </a>
                     </div>
-                    <div className="call2act">
-                        {/* <button className="interactive-hover-button-1">
+                </div>
+                <div class="leftbottom">
+                    <p>
+                        <span>© 2025 dev.januda.amaneth</span>
+                    </p>
+                </div>
+                <div className="call2act">
+                    {/* <button className="interactive-hover-button-1">
                             <a
                                 href=""
                                 style="color: inherit; text-decoration: none"
@@ -61,7 +68,8 @@ function Home() {
                                 Portfolio
                             </a>
                         </button> */}
-                    </div>
+                    <button className="portfolio-btn"> Portfolio </button>
+                    <button className="about-btn"> About Me </button>
                 </div>
             </div>
         </>

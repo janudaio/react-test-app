@@ -134,6 +134,10 @@ body {
     list-style: none;
 }
 
+.contacts ul .phone {
+    letter-spacing: 1.4px;
+}
+
 .contacts ul a {
     color: inherit;
     text-decoration: none;
@@ -159,7 +163,7 @@ body {
 }
 
 .icons ion-icon:hover {
-    color: #ff7200;
+    color: #fa5b0f;
 }
 .icon {
     display: flex;
@@ -173,48 +177,100 @@ body {
     margin: 0 auto;
 }
 
-.interactive-hover-button-1 {
+/* From Uiverse.io by alexroumi */
+.portfolio-btn {
+    padding: 15px 55px;
+    border: unset;
+    border-radius: 30px;
+    color: #ffffff;
+    z-index: 1;
+    background: #fa5b0f;
+    position: absolute; /* Changed to absolute position */
+    top: 570px; /* Distance from the bottom */
+    left: 1270px;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+}
+
+.portfolio-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #e8e8e8;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+}
+
+.portfolio-btn:hover {
+    color: #101010;
+}
+
+.portfolio-btn:hover::before {
+    width: 100%;
+}
+
+/* From Uiverse.io by alexroumi */
+.about-btn {
+    padding: 15px 55px;
+    border: unset;
+    border-radius: 30px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: absolute; /* Changed to absolute position */
+    top: 638px; /* Distance from the bottom */
+    left: 1270px; /* Distance from the right */
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+}
+
+.about-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #fa5b0f;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+}
+
+.about-btn:hover {
+    color: #e8e8e8;
+}
+
+.about-btn:hover::before {
+    width: 100%;
+}
+
+.leftbottom {
+    position: absolute;
+    left: 30px;
+    top: 685px;
+    width: 179px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #fff;
     font-family: 'outfit', sans-serif;
-    background-color: #333; /* Green */
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 20px 79px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    position: absolute; /* Absolute position */
-    bottom: 25px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-}
-
-.interactive-hover-button-1:hover {
-    background-color: rgb(250, 250, 250);
-    color: #000; /* Darker green */
-}
-
-.interactive-hover-button-2 {
-    font-family: 'outfit', sans-serif;
-    background-color: #fa5b0f; /* Green */
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 20px 83px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    position: absolute; /* Fixed position */
-    bottom: 98px; /* Distance from the bottom */
-    right: 20px; /* Distance from the right */
-}
-
-.interactive-hover-button-2:hover {
-    background-color: #ffffff; /* Darker green */
-    color: #000;
 }
