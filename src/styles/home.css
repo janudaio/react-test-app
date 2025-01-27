@@ -179,9 +179,9 @@ body {
 
 /* From Uiverse.io by alexroumi */
 .portfolio-btn {
-    padding: 15px 55px;
+    padding: 15px 56px;
     border: unset;
-    border-radius: 30px;
+    border-radius: 0px;
     color: #ffffff;
     z-index: 1;
     background: #fa5b0f;
@@ -204,7 +204,7 @@ body {
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 15px;
+    border-radius: 0px;
     background-color: #e8e8e8;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
@@ -224,7 +224,7 @@ body {
 .about-btn {
     padding: 15px 55px;
     border: unset;
-    border-radius: 30px;
+    border-radius: 0px;
     color: #212121;
     z-index: 1;
     background: #e8e8e8;
@@ -247,7 +247,7 @@ body {
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 15px;
+    border-radius: 0px;
     background-color: #fa5b0f;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
